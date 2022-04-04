@@ -19,6 +19,9 @@
             cy.get("h4").should("exist")
             cy.get("p").should("exist")
         })
+        it("should click a type link", ()=>{
+            cy.get("#type").first().click()
+        })
     })
 })
 
